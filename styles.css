@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3rem;
 }
 
 td{
@@ -19,8 +20,12 @@ td{
     width: 25rem;
 }
 
+.btns-container{
+    display: flex;
+    gap: 3rem;
+}
+
 input{
-    margin-top: 5rem;
     background-color: #09f;
     padding: 1.5rem;
     border: none;
@@ -28,6 +33,10 @@ input{
     font-size: 2rem;
 }
 
+.title{
+    font-size: 5rem;
+}
+
 input:hover{
-    box-shadow: 0 5px 2rem white;
+    background-color: rgb(50, 170, 250) ;
 }
